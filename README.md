@@ -1,4 +1,4 @@
-#  Tic-Tac-Toe — Android Game
+#  Tic-Tac-Toe - Android Game
 
 A native Android implementation of the classic Tic-Tac-Toe game, featuring a clean UI, real-time game logic, and persistent score tracking between two players.
 
@@ -32,37 +32,6 @@ A native Android implementation of the classic Tic-Tac-Toe game, featuring a cle
 
 ---
 
-##  Architecture & Logic
-
-* **Game State Management**
-
-  * Uses an array to track board positions
-  * Maintains player turns and move count
-
-* **Winning Logic**
-
-  * Predefined winning combinations
-  * Iterative check after each move
-
-* **UI Interaction**
-
-  * Click listeners for each grid cell
-  * Dynamic image updates for player moves
-
-* **Activity Communication**
-
-  * Passes player names via `Intent` between screens
-
----
-
-##  Tech Stack
-
-* **Language:** Java
-* **Platform:** Android SDK
-* **UI Components:** ImageView, TextView, LinearLayout
-* **Architecture Style:** Activity-based
-
----
 
 ##  Screenshots
 <p align="center">
@@ -71,18 +40,6 @@ A native Android implementation of the classic Tic-Tac-Toe game, featuring a cle
 </p>
 
 
-
----
-
-##  Getting Started
-
-### 1. Clone the repository
-
-```bash id="3k8f2a"
-git clone https://github.com/your-username/your-repo.git
-```
-
-### 2. Open in Android Studio
 
 ### 3. Run the app
 
